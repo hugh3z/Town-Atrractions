@@ -1,0 +1,42 @@
+body {
+  nav {
+  background-color: #348b9b; /* Background color */
+}
+
+nav ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block; 
+}
+
+nav ul li a {
+  display: inline-block; 
+  padding: 10px 20px; 
+  color: rgb(0, 17, 116); 
+  text-decoration: none; 
+}
+
+nav ul li a:hover {
+  background-color: #fffecd; 
+}
+
+.landmark {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  }
+
+.landmark h2 {
+  color: #333;
+  }
+
+.landmark p {
+  color: #666;
+  }
+}
