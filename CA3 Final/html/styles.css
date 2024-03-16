@@ -1,0 +1,163 @@
+body {
+
+.center {
+  max-width: 70%;
+  height: auto;
+  display: inline-block;
+  }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+
+h1{
+  font-size: 45pt;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #05485c;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 32pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #348b9b;
+
+}
+
+h3{
+  font-size: 26pt;
+  font-family: fantasy;
+  color:#348b9b;
+}
+
+h5{
+  font-size: 20pt;
+  color: #05485c;
+}
+p{
+  font-size: 20pt;
+  font-family: serif;
+  color: navy;
+
+}
+
+background-color: azure;
+
+nav {
+  background-color: #348b9b; 
+}
+
+nav ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block; 
+}
+
+nav ul li a {
+  display: inline-block; 
+  padding: 25px 100px; 
+  color: rgb(0, 17, 116); 
+  text-decoration: none; 
+}
+
+nav ul li a:hover {
+  background-color: #fffecd; 
+}
+
+
+.landmark, Beach, golf, university {
+  background-color: #fffecd;
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+
+.landmark, Beach, golf, university h2 {
+  color: #0781a5;
+  }
+
+.landmark, Beach, golf, university h3 {
+  color: #0781a5;
+}
+
+.landmark, Beach, golf, university h4 {
+  color: #0781a5;
+}
+
+.landmark, Beach, golf, university p {
+  color: #05485c;
+  }
+
+ .banner {
+  border: 25px solid transparent;
+  padding: 15px;
+  border-image: url("images/sand.jpg") 20% round;
+  background-color: #3ab3c1;
+ }
+.banner p{
+  text-align: center; 
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fffecd;
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.card {
+  background-color: #fffecd;
+  border-style: dotted;
+  border-color: #dad231ecd;
+  border-width: 10px;
+}
+
+button {
+  background-image: url("images/sea.jpg"); 
+  color: white; 
+  font-weight: bolder;
+  border: #05485c; 
+  padding: 20px 20px; 
+  margin: 5px; 
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.carousel-inner img {
+  height: auto; 
+  width: 1400px;
+  }
+.carousel-caption {
+  background-color: rgba(255, 248, 248, 0.5); 
+    }
+
+@media (max-width: 768px) {
+  #googleMap {
+    width: 100%;
+  }
+}
+
+.banner, nav {
+    width: 100vw;
+}
+
+}

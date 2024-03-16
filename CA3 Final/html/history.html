@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+  <h1>Discover St Andrews</h1> 
+
+  <div class="banner">
+    <p>St Andrews <br>
+    Founded: 15th Century <br>
+    "dum spiro spero"</p>
+    <img alt="images/st andrews beach" src="images/st_andrews_beach.jpg" class="center">
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="index.html">Index</a></li>
+      <li><a href="visit.html">Visit</a></li>
+    </ul>
+  </nav>
+
+  <h2>The History</h2>
+
+  <p>St. Andrews, situated on the east coast of Scotland, holds a rich and storied history dating back over a thousand years.
+     The town's origins can be traced to the early medieval period when it emerged as an important ecclesiastical center, named after Saint Andrew, one of the twelve apostles of Jesus Christ. 
+     In the 12th century, St. Andrews became the ecclesiastical capital of Scotland and the seat of its archbishop, wielding considerable influence over religious and political affairs. <br>
+    Throughout the centuries, St. Andrews played a pivotal role in shaping Scotland's religious, cultural, and educational landscape. 
+    The town's renowned university, founded in 1413, is the oldest in Scotland and the third oldest in the English-speaking world, fostering a legacy of academic excellence and intellectual inquiry. <br>
+    St. Andrews is perhaps best known as the birthplace of golf, with the game's origins dating back to the 15th century. The iconic Old Course, with its ancient fairways and historic landmarks, has attracted golfers from around the globe for centuries, earning St. Andrews a reputation as the "Home of Golf." <br>
+    Today, St. Andrews continues to enchant visitors with its medieval architecture, scenic coastal vistas, and vibrant cultural scene, offering a captivating glimpse into Scotland's rich heritage and enduring legacy. From its ancient ruins to its world-class golf courses, St. Andrews remains a timeless destination steeped in history and tradition.</p>
+
+  <h3>Due to St Andrews long history and ancient buildings, it has lots of ghost stories. Click on the buttons below to find out about some of the most famous ghosts.</h3>
+  <button onclick="toggleGhostStory('whiteLady')">White Lady Ghost story</button>
+  <button onclick="toggleGhostStory('hauntedCathedral')">Haunted Cathedral Ghost story</button>
+  <button onclick="toggleGhostStory('greyLady')">Grey Lady Ghost story</button>
+  
+  <div class="ghost" id="whiteLady" style="display: none;">
+    <h5>The White Lady of St Andrews Castle.</h5> 
+    <p>One of the most famous ghost stories in St. Andrews involves the ghost of a woman dressed in white who is said to haunt St. Andrews Castle.
+      Legend has it that she is the spirit of Lady Janet Douglas, who was executed in 1537 on accusations of witchcraft and conspiracy 
+      against King James V. Visitors and staff have reported sightings of her ghost wandering the castle ruins.</p>
+  </div>
+
+  <div class="ghost" id="hauntedCathedral" style="display: none;">
+    <h5>The Haunted Cathedral</h5> 
+    <p>St. Andrews Cathedral, once the largest church in Scotland, is also rumored to be haunted. 
+      Visitors claim to have seen shadowy figures moving through the ruins, especially around dusk. 
+      Some stories suggest that these are the spirits of monks who once inhabited the cathedral.</p>
+  </div>
+
+  <div class="ghost" id="greyLady" style="display: none;">
+    <h5>The Grey Lady of St. Leonard's School</h5> 
+    <p>St. Leonard's School in St. Andrews is said to be haunted by the ghost of a former headmistress known as the Grey Lady. 
+      She is said to roam the halls of the school, particularly in the oldest part of the building. 
+      Students and staff have reported hearing strange noises and feeling an eerie presence.</p>
+  </div>
+
+  <script>
+    function toggleGhostStory(id) {
+      var ghostStory = document.getElementById(id);
+      if (ghostStory.style.display === "none" || ghostStory.style.display === "") {
+        ghostStory.style.display = "block";
+      } else {
+        ghostStory.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
+
